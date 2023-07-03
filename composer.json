@@ -1,0 +1,32 @@
+{
+    "name": "zorac/phpstan-php-di",
+    "type": "phpstan-extension",
+    "description": "Extansion adding support for PHP-DI to PHPStan.",
+    "keywords": ["phpstan", "php-di"],
+    "homepage": "https://www.github.com/zorac/phpstan-php-di/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark Rigby-Jones",
+            "email": "mark@rigby-jones.net",
+            "homepage": "https://mark.rigby-jones.net/"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "php-di/php-di": "^7.0",
+        "phpstan/phpstan": "^1.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zorac\\PhpStanPhpDI\\": "src/"
+        }
+    },
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "extension.neon"
+            ]
+        }
+    }
+}
