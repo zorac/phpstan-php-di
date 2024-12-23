@@ -15,7 +15,7 @@
     "require": {
         "php": "^8.0",
         "php-di/php-di": "^7.0",
-        "phpstan/phpstan": "^1.10"
+        "phpstan/phpstan": "^1.10|^2.0"
     },
     "autoload": {
         "psr-4": {
